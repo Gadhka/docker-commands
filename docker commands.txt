@@ -1,0 +1,8 @@
+docker image prune -a => to remove all images
+docker container prune => to remove all stop containers
+docker ps => to check running containers
+docker compose up => to run docker-compose file
+docker compose down => to shutdown the compose file
+docker compose down -v => shutdown container + volume => named volumes and etc.
+docker compose <..frontend> sh => for shell
+cat app.py => read file

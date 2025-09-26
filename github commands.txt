@@ -1,0 +1,29 @@
+git init => Initialize a new Git repository
+git clone <repo-url> => Copy a remote repo to your local machine
+git status => Check which files are staged, modified, or untracked
+git add . => Add all changes in the directory to staging
+git add <filename> => Add a specific file to staging
+git commit -m "message" => Commit staged changes with a message
+git commit -am "message" => Add and commit tracked files in one step
+git push origin main => Push commits to the 'main' branch on remote
+git pull origin main => Pull latest changes from the 'main' branch
+git branch => List all local branches
+git branch <name> => Create a new branch
+git checkout <name> => Switch to another branch
+git switch <name> => (Newer) Switch to another branch
+git merge <name> => Merge a branch into your current branch
+git branch -d <name> => Delete a branch locally
+git branch => check current branch
+git log => View detailed commit history
+git log --oneline => View compact commit history
+git remote -v => Show linked remote URLs
+git remote add origin <url> => Link a remote repo (e.g., GitHub)
+git reset --hard HEAD => Undo all local changes (DANGER!)
+git diff => Show changes not staged yet
+git stash => Temporarily save uncommitted changes
+git stash pop => Re-apply stashed changes
+git config --global user.name "..." => login username &
+git config --global user.email "..." => login password
+fit fetch => if it runs without asking for username/password  or without error youre authorized
+
+
